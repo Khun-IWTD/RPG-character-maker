@@ -24,13 +24,12 @@ def CharacterGender():
 
             if sure == "yes":
                 print("Confirmed player's gender")
+                return gender
             elif sure == "no":
                 continue
             else:
                 print("please type only ","yes or no")
 
-            print("Done selected your gender")
-            return gender
         else:
             print("Only choose gender from list")
 gender = CharacterGender()
@@ -46,12 +45,12 @@ def CharacterRace():
      
             if sure == "yes":
                 print("Confirmed player's race")
+                return race
             elif sure == "no":
                 continue
             else:
                 print("please type only ","yes or no")       
-            print("Done selected your race")
-            return race
+            
         else:
             print("Only choose race from list")
 race = CharacterRace()
@@ -67,13 +66,12 @@ def CharacterClass():
             
             if sure == "yes":
                 print("Confirmed player's class")
+                return classs
             elif sure == "no":
                 continue
             else:
                 print("please type only ","yes or no")
 
-            print("Done selected your class")
-            return classs
         else:
             print("Only choose class from list")
 classs = CharacterClass()
